@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 const double PI = 3.14159265358979323846;
 
+
 // if (Si (condicion) entonces ... caso contrario (else) ... fin si
 // 1. Nota aprobacion si es mayo a 51 sino reprobado
 int nota;
