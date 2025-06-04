@@ -32,10 +32,32 @@ do
 
             break;
         case "2":
-            Console.WriteLine("Resta!");
+            Console.WriteLine("Ingrese el primer numero: ");
+            s1 = Console.ReadLine();
+            Console.WriteLine("Ingrese el segundo numero: ");
+            s2 = Console.ReadLine();
+
+            n1 = int.Parse(s1);
+            n2 = int.Parse(s2);
+
+            resultado = n1 - n2;
+
+            Console.WriteLine("La resta es: " + resultado);
+            
             break;
         case "3":
-            Console.WriteLine("Multiplicacion!");
+            Console.WriteLine("Ingrese el primer numero: ");
+            s1 = Console.ReadLine();
+            Console.WriteLine("Ingrese el segundo numero: ");
+            s2 = Console.ReadLine();
+
+            n1 = int.Parse(s1);
+            n2 = int.Parse(s2);
+
+            resultado = n1 * n2;
+
+            Console.WriteLine("La Multiplicacion es: " + resultado);
+            
             break;
         case "4":
 
