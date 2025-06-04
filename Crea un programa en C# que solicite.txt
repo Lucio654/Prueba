@@ -1,0 +1,8 @@
+Crea un programa en C# que solicite al usuario su edad (entre 0 y 120). Luego, el programa debe mostrar en pantalla la categoría a la que pertenece según la siguiente tabla:
+
+Edad	Categoría
+0 - 5	Bebé
+6 - 12	Niño/a
+13 - 17	Adolescente
+18 - 64	Adulto
+65 - 120	Adulto mayor
