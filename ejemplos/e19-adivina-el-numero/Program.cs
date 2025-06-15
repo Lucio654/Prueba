@@ -3,8 +3,6 @@
 //El usuario intenta adivinarlo.
 //Usar do-while hasta que acierte, indicando si es mayor o menor.
 
-using System.Timers;
-
 Random random = new Random();
 int numeroAleatorio = random.Next(1, 51);
 int jugador;
