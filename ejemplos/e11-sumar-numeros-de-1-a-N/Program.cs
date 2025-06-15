@@ -1,4 +1,4 @@
-﻿// Sumar números del 1 al NPedir al usuario un número N y sumar 
+﻿// Sumar números del 1 al N. Pedir al usuario un número N y sumar 
 //todos los números del 1 hasta N usando while.
 
 Console.Write("Ingrese un número: " );
