@@ -7,8 +7,8 @@ if (int.TryParse(Console.ReadLine(), out int esNumero) && esNumero >= 0)
 {
     //Console.Write("ingreso valido");
 
-    var sumar = 0;
-    var Contador = 1;
+    int sumar = 0;
+    int Contador = 1;
 
     while (Contador <= esNumero)
     {
