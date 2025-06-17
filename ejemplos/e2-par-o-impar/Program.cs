@@ -12,6 +12,7 @@ else
     Console.WriteLine("El numero es impar");
 }*/
 
+
 using System;
 
 class Program
@@ -103,6 +104,9 @@ class Program
         return false;
     }
 
+    int turnos = 0;
+    bool juegoActivo = true;
+
     static bool ComprobarGanador()
     {
         for (int i = 0; i < 3; i++)
@@ -115,5 +119,6 @@ class Program
 
         return false;
     }
+    
 }
 
